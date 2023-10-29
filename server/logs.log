@@ -1058,3 +1058,71 @@
 2023/10/29 20:51:12 outputs.go:32: Response html | GET
 2023/10/29 20:51:12 outputs.go:62: Response to image | GET
 2023/10/29 20:51:13 outputs.go:62: Response to image | GET
+2023/10/30 02:12:07 server.go:27: Sever started
+2023/10/30 02:12:07 server.go:36: Listening connections
+2023/10/30 02:12:12 server.go:44: Connection accepted
+2023/10/30 02:12:17 handleRequest.go:15: Request
+2023/10/30 02:12:33 server.go:44: Connection accepted
+2023/10/30 02:12:33 handleRequest.go:15: Request
+2023/10/30 02:12:33 outputs.go:41: ERROR: Invalid request image | GET
+2023/10/30 02:12:33 server.go:44: Connection accepted
+2023/10/30 02:12:33 handleRequest.go:15: Request
+2023/10/30 02:12:33 outputs.go:41: ERROR: Invalid request image | GET
+2023/10/30 02:12:41 server.go:44: Connection accepted
+2023/10/30 02:12:43 handleRequest.go:15: Request
+2023/10/30 02:12:48 server.go:44: Connection accepted
+2023/10/30 02:12:48 handleRequest.go:15: Request
+2023/10/30 02:12:51 server.go:44: Connection accepted
+2023/10/30 02:12:52 handleRequest.go:15: Request
+2023/10/30 02:12:52 server.go:44: Connection accepted
+2023/10/30 02:12:52 handleRequest.go:15: Request
+2023/10/30 02:12:52 server.go:44: Connection accepted
+2023/10/30 02:12:52 handleRequest.go:15: Request
+2023/10/30 02:12:53 outputs.go:62: Response to image | GET
+2023/10/30 02:12:58 outputs.go:62: Response to image | GET
+2023/10/30 02:13:02 outputs.go:32: Response html | GET
+2023/10/30 02:13:02 outputs.go:62: Response to image | GET
+2023/10/30 02:13:02 outputs.go:62: Response to image | GET
+2023/10/30 02:13:35 server.go:27: Sever started
+2023/10/30 02:13:35 server.go:36: Listening connections
+2023/10/30 02:13:37 server.go:44: Connection accepted
+2023/10/30 02:13:37 handleRequest.go:15: Request
+2023/10/30 02:13:37 outputs.go:31: Response html | GET
+2023/10/30 02:13:37 server.go:44: Connection accepted
+2023/10/30 02:13:37 handleRequest.go:15: Request
+2023/10/30 02:13:37 server.go:44: Connection accepted
+2023/10/30 02:13:37 handleRequest.go:15: Request
+2023/10/30 02:13:37 outputs.go:61: Response to image | GET
+2023/10/30 02:13:37 outputs.go:61: Response to image | GET
+2023/10/30 02:13:42 server.go:44: Connection accepted
+2023/10/30 02:13:42 handleRequest.go:15: Request
+2023/10/30 02:13:42 outputs.go:61: Response to image | GET
+2023/10/30 02:13:47 server.go:44: Connection accepted
+2023/10/30 02:13:48 handleRequest.go:15: Request
+2023/10/30 02:13:48 outputs.go:61: Response to image | GET
+2023/10/30 02:13:54 server.go:44: Connection accepted
+2023/10/30 02:13:54 handleRequest.go:15: Request
+2023/10/30 02:13:54 outputs.go:31: Response html | GET
+2023/10/30 02:13:55 server.go:44: Connection accepted
+2023/10/30 02:13:55 handleRequest.go:15: Request
+2023/10/30 02:13:55 server.go:44: Connection accepted
+2023/10/30 02:13:55 handleRequest.go:15: Request
+2023/10/30 02:13:55 outputs.go:61: Response to image | GET
+2023/10/30 02:13:55 outputs.go:61: Response to image | GET
+2023/10/30 02:15:24 server.go:44: Connection accepted
+2023/10/30 02:15:24 handleRequest.go:15: Request
+2023/10/30 02:15:24 handleRequest.go:34: Response | Options
+2023/10/30 02:15:39 server.go:44: Connection accepted
+2023/10/30 02:15:39 handleRequest.go:15: Request
+2023/10/30 02:15:51 server.go:44: Connection accepted
+2023/10/30 02:15:51 handleRequest.go:15: Request
+2023/10/30 02:15:51 outputs.go:61: Response to image | GET
+2023/10/30 02:16:05 server.go:44: Connection accepted
+2023/10/30 02:16:05 handleRequest.go:15: Request
+2023/10/30 02:16:05 outputs.go:31: Response html | GET
+2023/10/30 02:16:11 server.go:44: Connection accepted
+2023/10/30 02:16:11 handleRequest.go:15: Request
+2023/10/30 02:16:11 outputs.go:61: Response to image | GET
+2023/10/30 02:16:23 server.go:44: Connection accepted
+2023/10/30 02:16:23 handleRequest.go:15: Request
+2023/10/30 02:16:23 handleRequest.go:22: POST

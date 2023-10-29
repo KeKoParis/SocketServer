@@ -5,7 +5,6 @@ import (
 	"log"
 	"net"
 	"os"
-	"time"
 )
 
 func SendHtml(connection net.Conn) {
@@ -26,8 +25,6 @@ func SendHtml(connection net.Conn) {
 			connection.Write(file[i*1023 : (i+1)*1023])
 		}
 	}
-
-	time.Sleep(10 * time.Second)
 
 	log.Println("Response html | GET")
 }
@@ -57,7 +54,6 @@ func SendImage(connection net.Conn, imgType string) {
 			connection.Write(file[i*1024 : (i+1)*1024])
 		}
 	}
-	time.Sleep(10000 * time.Millisecond)
 
 	log.Println("Response to image | GET")
 }
