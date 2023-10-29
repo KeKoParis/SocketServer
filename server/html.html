@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <style>
+        h1 {
+            font-family: "Blackadder ITC", serif;
+            color: burlywood;
+        }
+
+        div {
+            text-align: center;
+            width: 50%;
+            background: aqua;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #text {
+            margin-top: 20px;
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h1>Here's an HTML</h1>
+</div>
+
+<div>
+    <img src="png.png" width="50%">
+</div>
+
+<div>
+    <img src="svg.svg" width="50%">
+</div>
+
+<div id="text"></div>
+
+<script>
+    var i = 0;
+    var txt = 'Hello, it works'; // Текст, который нужно напечатать
+    var speed = 100; // Скорость в миллисекундах
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("text").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    typeWriter();
+</script>
+
+</body>
+</html>
